@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import helper from "../js/helper.js";
+import helper from "./js/helper.js";
 export default {
   name: 'App',
   mixins: [helper],
