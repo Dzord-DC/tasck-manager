@@ -32,16 +32,6 @@ export default {
     created(){
 
     },
-    /*methods: {
-      goTo(name) {
-        console.log(name)
-        if (name) {
-                this.$router.push({
-                    name: name,
-                });
-            }
-      }
-    },*/
 }
 </script>
 
