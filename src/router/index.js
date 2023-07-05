@@ -5,25 +5,17 @@ import tasckList from '../components/tasck-list.vue'
 
 const routes = [
     {
-        path: '/',
+        path: '/tasck-manager/',
         name: "home",
         component: MainSite,
-        alias: '/*'
     },
     {
-        path: '/tasck-list',
+        path: '/tasck-manager/tasck-list',
         name: "tasck-list",
         component: tasckList,
-        children: [
-           /* {
-                path: 'doct24',
-                name: "WorkDoct24",
-                component: WorkDoct24,
-            },*/
-    ],
     },
     {
-        path: "/*",
+        path: "/tasck-manager/*",
         name: "404",
         alias: '/'
     }
